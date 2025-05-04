@@ -1,5 +1,13 @@
 
+<p align="center">
+  <img src="docs/ansd.jpg" alt="Image 1" width="45%" />
+  <img src="docs/ensae.png" alt="Image 2" width="45%" />
+</p>
+
 # TP Classification - Prédiction du revenu
+
+![Demo GIF](docs/vid.gif)
+
 
 Ce projet est un travail pratique de classification supervisée visant à prédire si un individu gagne plus ou moins de **50 000$ par an**, à partir de variables socio-économiques. Il est basé sur un dataset classique issu du recensement américain.
 
@@ -13,7 +21,7 @@ Utiliser des méthodes de machine learning supervisé pour construire un modèle
 
 ## 🔧 Méthodologie
 
-Le notebook suit les étapes suivantes :
+Le notebook passe  ces différentes étapes :
 
 1. **Importation des bibliothèques**
 2. **Chargement et compréhension des données**
@@ -24,15 +32,17 @@ Le notebook suit les étapes suivantes :
 4. **Exploration des données (EDA)** :
    - Visualisations des distributions
    - Analyse des corrélations
-5. **Construction de modèles** :
+5. **Construction de modèles et Optimisation des paramètres et du seuil de discrimination** :
+   - Dummy Classifier
    - Régression logistique
    - K plus proches voisins (KNN)
-   - Arbres de décision
-   - Forêts aléatoires
+   - Random Forest
+   - Gradient Boosting
 6. **Évaluation des performances** :
    - Matrices de confusion
    - Accuracy, précision, rappel, F1-score
    - Courbes ROC
+7. **Feature importance avec Shap**
 
 ## 📈 Résultats
 
@@ -47,6 +57,7 @@ Les performances des modèles sont comparées pour identifier celui offrant la m
   - `numpy`
   - `matplotlib`, `seaborn`
   - `scikit-learn`
+  - `Shap`
 
 ## 🚀 Exécution
 
@@ -65,3 +76,11 @@ Les données utilisées proviennent d'une version traitée du **Census Income Da
 - Réalisé par : Sié Rachid Traoré
 - Sous la supervision de : Mme Mously Diaw
 - Formation : ENSAE – TP de Machine Learning
+
+---
+---
+---
+<p align="center">
+  <img src="docs/ansd.jpg" alt="Image 1" width="45%" />
+  <img src="docs/ensae.png" alt="Image 2" width="45%" />
+</p>
