@@ -4,7 +4,7 @@
   <img src="docs/ensae.png" alt="Image 2" width="45%" />
 </p>
 
-# TP Classification - Prédiction du revenu
+# TP Classification - Prédiction de classe de revenu
 
 ![Demo GIF](docs/vid.gif)
 
